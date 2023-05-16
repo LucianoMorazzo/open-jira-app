@@ -15,7 +15,7 @@ export const Sidebar = () => {
     <Drawer
         anchor="left"
         open={ sidemenuOpen }
-        onClose={ () => console.log('cerrando')}
+        onClose={ closeSidebar }
     >
         <Box sx={{ width: 250 }}>
             <Box
